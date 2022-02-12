@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InterfazUsuario
+</name>
+</assembly>
+<members>
+<member name="T:InterfazUsuario.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._1_NombreEmpresaBlanco">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._1_NombreEmpresaBlanco___copia">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._2_CandadoRecortado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._3___copia">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._3__ServicioLetrasBlancas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._3_AServicesLetrasBlancas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._3_LogoBlancoSinFondo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._3_tecnicoLetrasBlancas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._4_ASERVICES_LETRASNEGRAS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._4_SERVICIO_LETRASNEGRAS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._4_TECNICO_LETRASNEGRAS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InterfazUsuario.My.Resources.Resources._7_LogoNegroSinFondo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:InterfazUsuario.FormAgregarEmpresaCliente.VaciarDatos">
+ ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet.departamentosdeclientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet.departamentosdeclientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet.departamentosdeclientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSetTableAdapters.departamentosdeclientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(InterfazUsuario.a_servicesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(InterfazUsuario.a_servicesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(InterfazUsuario.a_servicesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager.UpdateAll(InterfazUsuario.a_servicesDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.asignacion_maquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.asistenciasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.ciudadesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.cuentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.departamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empleado_clienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empresa_clienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empresacliente_departamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.enrutadorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.equipo_computoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.estadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.fallas_comunesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.impresorasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.marcaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.municipiosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.nivelpermisoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.paisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.parroquiasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personalregistradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_clienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_enrutadorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_equiposDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_impresorasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_switchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.servicios_disponiblesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.solicitudesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.switchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tecnicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tipo_impresoraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tipos_switchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.trabajadorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.velocidad_wlanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.administradoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.cuentasconrolDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datoscompletosclientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datosparasolicitudesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datostecnicosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direccionempleadoclienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direccionempresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direcciontrabajadorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empleadosclientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personalconuuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personasregistradasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.pruebavistasanidadasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.relaciondatossolicitudyasistenciaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.relacionpersonalusuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tecnicosyasisteciasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.trabajadoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.asignacion_maquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.asistenciasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.ciudadesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.cuentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.departamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empleado_clienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empresa_clienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empresacliente_departamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.enrutadorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.equipo_computoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.estadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.fallas_comunesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.impresorasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.marcaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.municipiosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.nivelpermisoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.paisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.parroquiasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personalregistradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_clienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_enrutadorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_equiposRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_impresorasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_switchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.servicios_disponiblesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.solicitudesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.switchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tecnicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tipo_impresoraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tipos_switchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.trabajadorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.velocidad_wlanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.administradoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.cuentasconrolRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datoscompletosclientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datosparasolicitudesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datostecnicosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direccionempleadoclienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direccionempresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direcciontrabajadorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empleadosclientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personalconuuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personasregistradasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.pruebavistasanidadasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.relaciondatossolicitudyasistenciaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.relacionpersonalusuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tecnicosyasisteciasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.trabajadoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.asignacion_maquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.asistenciasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.ciudadesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.cuentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.departamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empleado_clienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empresa_clienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empresacliente_departamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.enrutadorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.equipo_computoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.estadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.fallas_comunesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.impresorasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.marcaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.municipiosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.nivelpermisoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.paisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.parroquiasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personalregistradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_clienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_enrutadorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_equiposRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_impresorasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.red_switchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.servicios_disponiblesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.solicitudesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.switchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tecnicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tipo_impresoraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tipos_switchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.trabajadorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.velocidad_wlanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.administradoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.cuentasconrolRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datoscompletosclientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datosparasolicitudesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.datostecnicosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direccionempleadoclienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direccionempresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.direcciontrabajadorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.empleadosclientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personalconuuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.personasregistradasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.pruebavistasanidadasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.relaciondatossolicitudyasistenciaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.relacionpersonalusuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.tecnicosyasisteciasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1.trabajadoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.asignacion_maquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.asistenciasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.ciudadesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.cuentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.departamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.empleado_clienteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.empresa_clienteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.empresacliente_departamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.enrutadorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.equipo_computoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.estadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.fallas_comunesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.impresorasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.marcaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.municipiosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.nivelpermisoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.paisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.parroquiasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.personalregistradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.red_clienteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.red_enrutadorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.red_equiposTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.red_impresorasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.red_switchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.servicios_disponiblesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.solicitudesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.switchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.tecnicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.tipo_impresoraTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.tipos_switchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.trabajadorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.velocidad_wlanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.administradoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.cuentasconrolTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.datoscompletosclientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.datosparasolicitudesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.datostecnicosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.direccionempleadoclienteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.direccionempresaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.direcciontrabajadorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.empleadosclientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.personalconuuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.personasregistradasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.pruebavistasanidadasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.relaciondatossolicitudyasistenciaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.relacionpersonalusuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.tecnicosyasisteciasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.trabajadoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(InterfazUsuario.a_servicesDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(InterfazUsuario.a_servicesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(InterfazUsuario.a_servicesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager.UpdateAll(InterfazUsuario.a_servicesDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2.departamentosdeclientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2.departamentosdeclientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2.departamentosdeclientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2TableAdapters.departamentosdeclientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(InterfazUsuario.a_servicesDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(InterfazUsuario.a_servicesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(InterfazUsuario.a_servicesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager.UpdateAll(InterfazUsuario.a_servicesDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InterfazUsuario.a_servicesDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:InterfazUsuario.FormBasePrincipal.ButtonInicio_Click(System.Object,System.EventArgs)">
+ ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+</member>
+</members>
+</doc>

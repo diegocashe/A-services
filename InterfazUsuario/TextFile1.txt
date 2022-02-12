@@ -1,0 +1,122 @@
+﻿       
+<DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>
+Private Shared Sub ReleaseCapture()
+End Sub
+<DllImport("user32.DLL", EntryPoint:="SendMessage")>
+Private Shared Sub SendMessage(hWnd As IntPtr, wMsg As Integer, wParam As Integer, lParam As Integer)
+End Sub
+
+------------------------------------------------------------------------------------------------------------------------
+---		para declarar una clase abstracta se utiliza multiherith
+
+		en vb para instanciar una clase abstracta se utiliza inherith
+
+		para importar una estructura se utiliza import en el inicio
+
+		para importar una clase solo es necesario instanciarla y referenciarla en el proyecto 
+		(Esto ultimo si pertenecen a dos proyectos diferentes )
+
+---
+URGENTE REVISAR CONDICIONAL DE TEXBOX EN EL FORMULARIO LOGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+                Using comando = New MySqlCommand()
+                    comando.Connection = conexion
+                    comando.CommandText = "select * from ciudades where id_estado = 23"
+                    comando.CommandType = CommandType.Text
+                    Dim lectordatos = comando.ExecuteReader()
+                    If lectordatos.HasRows Then
+                        'Return True
+                    Else
+                        'Return False
+                    End If
+                End Using
+
+            End Using
+
+---------- ------------------------------------------------------------------------------------------------------------------
+
+
+            Dim myConnection As New MySqlConnection("server=localhost;database=test;user id=root;password=;")
+            myConnection.Open()
+            MessageBox.Show("ServerVersion: " + myConnection.ServerVersion + ControlChars.Cr + "State: " + myConnection.State.ToString())
+            myConnection.Close()
+
+            -------------------------------------------------------------------------------------------
+
+                  Dim conexion As New MySqlConnection("server=localhost;user id=root;password=;")
+            conexion.Open()
+            '----------------------------------------------------------------------------------------------------------------------------------------------------------
+            Using comando = New MySqlCommand()
+                comando.Connection = conexion
+                comando.CommandText = "SELECT * FROM cuentas a WHERE a.usuario = " + Txt_usuario.Text + " AND a.password = " + Txt_contraseña.Text + ";"
+                comando.CommandType = CommandType.Text
+                Dim lectordatos = comando.ExecuteReader()
+                If lectordatos.HasRows Then
+                    Root.Show()
+                End If
+            End Using
+            conexion.Close()
+            ----------------------------------------------------------------------------------------------------------------------
+            
+            Using conexion As New MySqlConnection("server=localhost;database=test;user id=root;password=;")
+                conexion.Open()
+                MessageBox.Show("ServerVersion: " + conexion.ServerVersion + ControlChars.Cr + "State: " + conexion.State.ToString())
+                conexion.Close()
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Crear una funcion que retorne un objeto con los colores del tema que sea del tipo shared
+
+----------------------------------------------------------------------------------------------
+
+        CREAR UNA CAPA EXTRA PARA EL FORMULARIO INICIO
+       
+       
+       'Paneles gradient
+        Me.PanelSubMenu1.GradientTopLeft = Color.FromArgb(TemaActual.PanelTop.r, TemaActual.PanelTop.g, TemaActual.PanelTop.b)
+        Me.PanelSubMenu1.GradientTopRight = Color.FromArgb(TemaActual.PanelTop.r, TemaActual.PanelTop.g, TemaActual.PanelTop.b)
+        Me.PanelSubMenu1.GradientBottomRight = Color.FromArgb(TemaActual.PanelLateral.r, TemaActual.PanelLateral.g, TemaActual.PanelLateral.b)
+        Me.PanelSubMenu1.GradientBottomLeft = Color.FromArgb(TemaActual.Fondo.r, TemaActual.Fondo.g, TemaActual.Fondo.b)
+
+
+
+        Strikethrough
+
+
+        ------------------------------------------------------------------------------------------------------------------
+
+        Private Shared Function lanzaProceso(ByVal Proceso As String, ByVal Parametros As String) As String
+    Dim startInfo As ProcessStartInfo = New ProcessStartInfo(Proceso, Parametros)
+    startInfo.WindowStyle = ProcessWindowStyle.Hidden
+    startInfo.UseShellExecute = False
+    startInfo.RedirectStandardOutput = True
+    startInfo.RedirectStandardError = True
+    Dim proc As Process = Process.Start(startInfo)
+    proc.WaitForExit()
+    Dim [error] As String = proc.StandardError.ReadToEnd()
+
+    If [error] IsNot Nothing AndAlso [error] <> "" Then
+        Throw New Exception("Se ha producido un error al ejecutar el proceso '" & Proceso & "'" & vbLf & "Detalles:" & vbLf & "Error: " & [error])
+    Else
+        Return proc.StandardOutput.ReadToEnd()
+    End If
+End Function
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+        'Dim consultaSQLArquitectura As String = "SELECT * FROM Win32_DiskDrive"
+        'Dim objArquitectura As New ManagementObjectSearcher(consultaSQLArquitectura)
+        'Dim inter As String = ""
+        'For Each info As ManagementObject In objArquitectura.Get()
+        '    inter = info.Properties("Size").Value.ToString
+        'Next info
+        'aaaaaaaaaaa.Text = "tamaño en gb: " + TransformarEnGB(inter).ToString + " GB"
